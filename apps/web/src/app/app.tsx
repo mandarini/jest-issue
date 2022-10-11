@@ -1,11 +1,11 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
+import { Kater } from './kater/kater';
 
 export function App() {
   return (
     <>
       <NxWelcome title="web" />
+      <Kater title="Anastasis" />
       <div />
     </>
   );
