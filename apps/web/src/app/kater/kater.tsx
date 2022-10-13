@@ -4,7 +4,7 @@ export interface KaterProps {
 }
 
 export function Kater(props: KaterProps) {
-  const kat = Data['A'];
+  const kat = Data.A;
   return (
     <div>
       <h1>Welcome to {props.title}!</h1>
